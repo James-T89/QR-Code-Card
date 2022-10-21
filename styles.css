@@ -3,7 +3,6 @@
 }
 
 :root {
-  /* margin: 0; */
 --White: hsl(0, 0%, 100%);
 --Light-gray: hsl(212, 45%, 89%);
 --Grayish-blue: hsl(220, 15%, 55%);
@@ -28,14 +27,14 @@ body {
   place-items: center;
   padding: 1.25rem;
   width: calc(375px - 4rem);
-  margin: 2rem;
-  border-radius: 25px;
+  margin-inline: 2rem;
+  border-radius: 15px;
 }
 
 img {
   max-inline-size: 100%;
   block-size: auto;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 h1 {
